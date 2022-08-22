@@ -115,6 +115,7 @@ pre{
     padding: 40px;
     font-family: 'Roboto';
     line-height: 24px;
+    overflow: auto;
 }
 
 blockquote{
@@ -146,7 +147,7 @@ blockquote span::before{
 }
 
 .wrapper{
-    width: 902px;
+   max-width: 902px;
     margin: auto;
 }
 
@@ -186,6 +187,7 @@ blockquote span::before{
 
 .section-content img{
     margin-top: 40px;
+    max-width: 100%;
 }
 
 .section-content h3{
